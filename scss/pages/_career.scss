@@ -1,0 +1,111 @@
+.career-header {
+  padding: 120px 0;
+  .sub-title{
+    margin-bottom: 0;
+    h1 {
+      max-width: 710px;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+
+  }
+ 
+}
+
+.vidoe-section {
+  margin-bottom: 135px;
+  img {
+    width: 100%;
+  }
+}
+.career-content {
+  .main-heading {
+    max-width: 384px;
+    margin: auto;
+    margin-bottom: 90px;
+  }
+  margin-bottom: 150px;
+  .Join-the-team {
+    margin-bottom: 135px;
+  }
+}
+.join-features {
+  display: flex;
+  margin-bottom: 45px;
+
+  h5 {
+    font-size: 22px;
+    margin-bottom: 27px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    color: $paragraph-color;
+    letter-spacing: -0.03em;
+  }
+  img {
+    margin-right: 20px;
+  }
+}
+.career-footer {
+  background-color: #f7f9fb;
+  padding: 115px 0;
+  .main-heading {
+    margin-bottom: 70px;
+  }
+  .current-job {
+    margin-bottom: 80px;
+  }
+  .btn-career {
+    text-align: center;
+  }
+}
+.customer-opinion {
+  margin-bottom: 150px;
+  p {
+    text-align: left;
+    font-size: 34px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    line-height: 50px;
+  }
+ 
+  .image-colne {
+    margin-bottom: 50px;
+  }
+}
+.customer-image{
+  width: 100%;
+}
+.name-engineer {
+  h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  p {
+    font-size: 16px;
+    color: $paragraph-color;
+  }
+}
+.job-about {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: $main-shadow;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  h6 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 18px;
+  }
+
+  .arrow {
+    font-size: 20px;
+    color: $main-color;
+  }
+}

@@ -1,0 +1,56 @@
+.post-area {
+  padding-right: 60px;
+  margin-bottom: 100px;
+ 
+  p {
+    max-width: 700px;
+    text-align: left;
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: $paragraph-color;
+  }
+  
+}
+.last-comments {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  a {
+    color:$social-color;
+    &:hover {
+      font-weight: bold;
+      color: $main-color;
+    }
+  }
+  .fa {
+    margin-right: 12px;
+    font-size: 20px;
+    color: $main-color;
+
+  }
+  p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+.post-image {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.post-title {
+  font-size: 31px;
+  max-width: 687px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.slidebar-blog {
+  .product-name {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: -0.03em;
+  }
+}

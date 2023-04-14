@@ -1,0 +1,52 @@
+.coming-soon {
+  margin-bottom: 250px;
+  .logo {
+    margin-bottom: 200px;
+    left: 0;
+    img {
+      margin-top: 25px;
+    }
+  }
+  .main-count {
+    max-width: 639px;
+  }
+
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    .form-control {
+      max-width: 400px;
+      margin-bottom: 0 ;
+    }
+  }
+}
+.list-time {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+  li {
+    p {
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 16px;
+    }
+    span {
+      font-size: 120px;
+      line-height: 130px;
+      font-weight: bold;
+    }
+    .color-scond {
+      color: $main-color;
+    }
+  }
+}
+
+.notify-tittle {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}

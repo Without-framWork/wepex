@@ -1,0 +1,57 @@
+{% extends "templates/layouts/app.html" %} {% block content %} {% set page_title
+= "offers" %}
+<section class="coming-soon">
+  <div class="container">
+    <div class="logo">
+      <a class="store-link" href="index.html" target=""> Wepex. </a>
+    </div>
+    <div class="main-count">
+      <div id="content">
+        <div class="main-heading text">
+          <h1>
+            Get beautiful landing page templates for free.
+            
+          </h1>
+          <p>
+            With over 25,000 customers worldwide, Appex is the world leading
+            analytics and marketing suite for Instagram and other platforms.
+          </p>
+        </div>
+
+        <ul class="list-time" id="countdown">
+          <li>
+            <p class="time-days">days</p>
+
+            <span class="days-timenumber">15</span>
+          </li>
+          <li>
+            <p class="time-hours">hours</p>
+
+            <span class="hours-timenumbers">20</span>
+          </li>
+          <li>
+            <p class="time-minutes">minutes</p>
+
+            <span class="minutes">16</span>
+          </li>
+          <li>
+            <p class="time-seconds">seconds</p>
+
+            <span class="color-scond seconds">00</span>
+          </li>
+        </ul>
+        <p class="notify-tittle">Lets notify you when we are up</p>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter your email address"
+          />
+          <button type="submit" class="btn-main">Notify Me</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

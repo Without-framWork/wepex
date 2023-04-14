@@ -1,0 +1,56 @@
+.footer-section {
+  background-color: $scond-main-color;
+  padding: 110px 0;
+
+  h6 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    color: $color-text;
+    margin-bottom: 40px;
+  }
+
+  .pages-media-link-email {
+    color: $main-color !important;
+  }
+
+  .email-link {
+    // padding-right: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    color: $main-color !important;
+  }
+}
+.entrants {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 180px;
+  margin-bottom: 115px;
+  padding: 0 20px;
+}
+.entrants-number {
+  width: 370px;
+  font-weight: bold;
+  color: $color-text;
+  p {
+    font-size: 34px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+  }
+}
+.footer-links-list {
+  list-style: none;
+  li {
+    margin-bottom: 20px;
+    color: #687497;
+  }
+  a {
+    font-size: 16px;
+    line-height: 21px;
+    color: $footer-link-color;
+    &:hover {
+      color: $main-color;
+    }
+  }
+}

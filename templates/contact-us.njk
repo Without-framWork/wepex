@@ -1,0 +1,102 @@
+{% extends "templates/layouts/app.html" %} {% block content %} {% set page_title
+= "offers" %} {% include "templates/parts/header-two.njk" %}
+<section class="common-section">
+  <div class="container">
+    <div class="contact-us">
+      <div class="bg-apply"></div>
+      <div class="main-heading sub-title">
+        <h1>Contact us</h1>
+        <p>
+          Have a question or just want to say hi? We'd love to hear from you.
+        </p>
+      </div>
+
+      <form method="POST" class="signin-form">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Your Name </label>
+              <input type="text" class="form-control" placeholder="John Doe" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Your email </label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your email address "
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Phone </label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your phone number"
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name"> Subject</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter a subject line"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Message</label>
+          <textarea
+            class="form-control form-textarea"
+            placeholder="Write your message"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn-main btn-block">Send</button>
+      </form>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="communication-ways">
+            <img src="assets/images/head-phone-icon.png" alt="" />
+            <h5>Help & support</h5>
+            <p>
+              Email
+              <span><a href="#">support@appextheme.com</a></span>
+              support@appextheme.com for help with a current product or service
+              or refer to FAQs and developer tools
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="communication-ways">
+            <img src="assets/images/call-icon.png" alt="" />
+            <h5>Call us</h5>
+            <p>Call us to speak to a member of our team.</p>
+            <p class="contact-number">+ 578 305 045 883</p>
+            <p class="contact-number">+ 781 300 047 883</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="communication-ways">
+            <img src="assets/images/send-icon.png" alt="" />
+            <h5>PR</h5>
+            <p>Get in touch with Assembly for media resources.</p>
+            <p>
+              <a href="#">support@appextheme.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn-main">Support Center</button>
+    </div>
+  </div>
+</section>
+
+{% include "templates/parts/footer-two.njk" %} {% endblock %}

@@ -1,0 +1,33 @@
+.pagination-wrap {
+  margin-top: 20px;
+  .pagination {
+    justify-content: center;
+    .page-item {
+      .active {
+        .page-link {
+          background-color: $main-color;
+          border-color: $main-color;
+          color: $color-text;
+        }
+      }
+    }
+    .page-link {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 12px;
+      text-align: center;
+      padding: 10px 0;
+      color: #0d152e;
+      &:hover {
+        background-color: $main-color;
+        color: $color-text;
+      }
+    }
+  }
+}
+.page-item.active .page-link {
+  background-color: $main-color;
+  border-color: $main-color;
+  color: $color-text;
+}

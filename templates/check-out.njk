@@ -1,0 +1,171 @@
+{% extends "templates/layouts/app.html" %} {% block content %} {% set page_title
+= "offers" %} {% include "templates/parts/header-two.njk" %}
+<div class="page-head">
+  <div class="main-heading sub-title">
+    <h1> Checkout</h1>
+  
+  </div>
+</div>
+
+<div class="container">
+  <div class="common-section">
+    <div class="row">
+      <div class="col-md-8">
+        <form action="" class="checkout-form">
+          <h3>Billing Details</h3>
+
+          <div class="form-group">
+            <label for="name">Your Name </label>
+            <input type="text" class="form-control" placeholder="John Doe" />
+          </div>
+          <div class="form-group">
+            <label for="name"> Email</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="example@gmail.com"
+            />
+          </div>
+          <div class="form-group">
+            <label >Country</label>
+            <select class="form-control">
+              <option>United States of America</option>
+              <option>United States of America</option>
+              <option>United States of America</option>
+              <option>United States of America</option>
+              <option>United States of America</option>
+            </select>
+          </div>
+          <div class="states-infro">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">States/Country</label>
+                  <input
+                    type="text"
+                    class="form-control mb-0"
+                    placeholder="United States of America"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">ZIP/Postal Code </label>
+                  <input
+                    type="text"
+                    class="form-control mb-0"
+                    placeholder="United States of America"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 >Payment Method</h3>
+
+          <div class="form-group">
+            <div class="form-radio-group">
+              <label class="mb-0"
+                ><input type="radio" name="radio-a" checked /><span></span
+                >Credit Cards
+              </label>
+              <img
+                class="visa-cards"
+                src="assets/images/cards-bank.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="name"> Card Number</label>
+
+            <input
+              type="text"
+              class="form-control"
+              placeholder="11154 5665 6464 565"
+            />
+            <img class="visa-image" src="assets/images/visa-logo.png" alt="" />
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <label>Expire Date </label>
+                <select class="form-control" >
+                  <option>Month</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                  <option>04</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label> </label>
+
+                <select class="form-control mt-4">
+                  <option>Year</option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="name">Security Code </label>
+                <input type="text" class="form-control" placeholder="PIN" />
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-radio-group">
+              <label class="mb-0"
+                ><input type="radio" name="radio-a" /><span></span>Paypal</label
+              >
+              <img src="assets/images/paypal.png" alt="" />
+            </div>
+          </div>
+          <div class="agree-conditions">
+            <p>
+              By clicking the button you agree the
+              <a href="#">Terms and Conditions</a>
+            </p>
+          </div>
+
+          <button type="submit" class="btn btn-main btn-block">
+            Complete Order
+          </button>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <div class="about-pricing">
+          <div class="cart-totals-wrapper w-100">
+            <div class="title">Price Details</div>
+
+            <div class="number-pieces">
+              <div class="text">Price (2 item)</div>
+              <div class="number">$140</div>
+            </div>
+            <div class="delivery-status">
+              <div class="text">Delivery Fee</div>
+              <div class="status">FREE</div>
+            </div>
+            <div class="totals-price">
+              <div class="text">Total Price</div>
+              <div class="number">$140</div>
+            </div>
+
+            <button type="submit" class="btn-main btn-block">
+              Proceed to checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include "templates/parts/footer-two.njk" %} {% endblock %}

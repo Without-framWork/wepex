@@ -1,0 +1,135 @@
+{% extends "templates/layouts/app.html" %} {% block content %} {% set page_title
+= "offers" %} {% include "templates/parts/header-two.njk" %}
+<section class="common-section">
+  <div class="container">
+    <div class="pricing-plan">
+      <div class="main-heading sub-title mb-0">
+        <h1>Pricing & Plans</h1>
+      </div>
+
+      <div class="subscription-type">
+        <span class="active-status"> Yearly </span>
+        <label class="switch m-0">
+          <input type="checkbox" checked />
+          <span class="slider cricle"></span>
+        </label>
+        <span class="active-status"> Monthly </span>
+        <p class="saving mb-0">Save 20%</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="table-responsive">
+        <table class="table pricing-table">
+          <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>
+                <h2>Free</h2>
+                <h4>$0</h4>
+                <p>Per month</p>
+              </th>
+              <th>
+                <h2>Team</h2>
+                <h4>$99</h4>
+                <p>Per month</p>
+              </th>
+              <th class="header-recomend">
+                <h2 class="header-recomend-title">Popular</h2>
+                <h4 class="text-white">$150</h4>
+                <p class="text-white">Per month</p>
+              </th>
+              <th>
+                <h2>Enterprise</h2>
+                <h4>$499</h4>
+                <p>Per month</p>
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th>Website nuumber</th>
+              <td>01</td>
+              <td>10</td>
+              <td class="details-recommend">Unlimited</td>
+              <td>Unlimited</td>
+            </tr>
+            <tr>
+              <th>Server storger</th>
+              <td>100 GB</td>
+              <td>100 GB</td>
+              <td class="details-recommend">Unlimited</td>
+              <td>Unlimited</td>
+            </tr>
+            <tr>
+              <th>Database</th>
+              <td>10</td>
+              <td>15</td>
+              <td class="details-recommend">Unlimited</td>
+              <td>Unlimited</td>
+            </tr>
+            <tr>
+              <th>Unmetered bandwidth</th>
+              <td><i class="fa fa-minus" aria-hidden="true"></i></td>
+              <td><i class="fa fa-minus" aria-hidden="true"></i></td>
+              <td class="details-recommend"><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-check"></i></td>
+            </tr>
+            <tr>
+              <th>SSD disk</th>
+              <td><i class="fa fa-minus" aria-hidden="true"></i></td>
+              <td><i class="fa fa-minus" aria-hidden="true"></i></td>
+              <td class="details-recommend"><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-check"></i></td>
+            </tr>
+            <tr>
+              <th>VCPUS Fontworld</th>
+              <td><i class="fa fa-minus" aria-hidden="true"></i></td>
+              <td><i class="fa fa-check"></i></td>
+              <td class="details-recommend"><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-check"></i></td>
+            </tr>
+            <tr>
+              <th>WordPress install</th>
+              <td><i class="fa fa-minus" aria-hidden="true"></i></td>
+              <td><i class="fa fa-minus" aria-hidden="true"></i></td>
+              <td class="details-recommend"><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-check"></i></td>
+            </tr>
+            <tr>
+              <th>Server speed</th>
+              <td><i class="fa fa-minus" aria-hidden="true"></i></td>
+              <td><i class="fa fa-minus" aria-hidden="true"></i></td>
+              <td class="details-recommend"><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-check"></i></td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <th>&nbsp;</th>
+              <td>
+                <a href="#">Get started</a>
+                <span><i class="fa fa-circle" aria-hidden="true"></i> </span>
+              </td>
+              <td>
+                <a href="#">Get started</a>
+                <span><i class="fa fa-circle" aria-hidden="true"></i> </span>
+              </td>
+              <td class="link-recommend">
+                <a href="#">Get started</a>
+                <span><i class="fa fa-circle" aria-hidden="true"></i> </span>
+              </td>
+              <td>
+                <a href="#">Get started</a>
+                <span><i class="fa fa-circle" aria-hidden="true"></i> </span>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "templates/parts/footer-two.njk" %} {% endblock %}

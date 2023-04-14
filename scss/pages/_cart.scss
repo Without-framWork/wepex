@@ -1,0 +1,140 @@
+.table-cart {
+  margin-bottom: 45px;
+  thead {
+    th {
+      border-top: none;
+      border-bottom: none;
+      font-size: 12px;
+      font-weight: bold;
+      padding-bottom: 25px;
+    }
+  }
+  tbody {
+    td {
+      vertical-align: inherit;
+      padding: 26px 0;
+      .close {
+        outline: none;
+
+        span {
+          font-size: 30px;
+        }
+      }
+    }
+    tr {
+      border-bottom: 1px solid #eaeced;
+    }
+  }
+}
+.size-1 {
+  width: 40%;
+}
+.size-2 {
+  width: 18%;
+}
+.size-3 {
+  width: 18%;
+}
+.size-4 {
+  width: 18%;
+}
+.product-cart {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 20px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-right: 60px;
+    font-weight: bold;
+  }
+}
+.product-cart-price {
+  font-weight: bold;
+  font-size: 16px;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  .quantity-button {
+    background-color: transparent;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+
+    border: none;
+    border: 1px solid $border-form;
+    &:hover {
+      box-shadow: $main-shadow;
+      color: $main-color;
+      background-color: $main-color;
+      color: $color-text;
+    }
+  }
+  .quantity-input {
+    width: 50px;
+    height: 30px;
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid $border-form;
+    border-radius: 3px;
+  }
+}
+.product-cart-total-price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about-pricing {
+  // .btn-shopping {
+  //   position: absolute;
+  // }
+}
+.cart-totals-wrapper {
+  background: #f7f9fb;
+  border: 1px solid #e5e5e5;
+  width: 360px;
+  float: right;
+  padding: 20px;
+  border-radius: 3px;
+  .title {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+  }
+  .number {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .totals-price {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}
+.number-pieces,
+.delivery-status {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.delivery-status {
+  border-bottom: 1px dashed $border-accordion;
+  padding-bottom: 20px;
+  .status {
+    color: $saving-color;
+  }
+}

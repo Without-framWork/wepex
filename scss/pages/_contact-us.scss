@@ -1,0 +1,62 @@
+.contact-us {
+  .bg-apply {
+    background-color: #0d152e;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    min-height: 60%;
+    position: absolute;
+    left: 0;
+  }
+  .btn-main {
+    margin-top: 50px;
+  }
+
+  .main-heading {
+    margin-bottom: 15px;
+  }
+  .main-Paragraph {
+    max-width: 723px;
+    margin-bottom: 62px;
+  }
+  .signin-form {
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0px -20px 79px rgba(0, 0, 0, 0.08);
+    padding: 90px;
+    margin-bottom: 120px;
+    margin-top: 60px;
+    textarea {
+      min-height: 220px;
+      resize: none;
+      padding: 20px !important;
+    }
+  }
+}
+
+.communication-ways {
+  img {
+    margin-bottom: 33px;
+  }
+  h5 {
+    font-size: 22px;
+    color: $color-text;
+    margin-bottom: 28px;
+    font-weight: bold;
+  }
+  a {
+    color: $main-color;
+    &:hover {
+      color: #fff;
+    }
+  }
+  p {
+    font-size: 18px;
+    line-height: 30px;
+    color: $footer-link-color;
+  }
+  .contact-number {
+    color: $main-color;
+  }
+ 
+}

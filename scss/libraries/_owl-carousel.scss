@@ -1,0 +1,21 @@
+#clients-slider {
+  .owl-dot.active span,
+  .owl-dot:hover span {
+    background-color: $social-color;
+  }
+  .owl-dot span {
+    width: 40px;
+    height: 40px;
+  }
+  .owl-dots {
+    position: absolute;
+    top: -170px;
+    right: 40px;
+  }
+  .owl-dot {
+    outline: 0;
+  }
+  .owl-nav {
+    display: none;
+  }
+}

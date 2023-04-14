@@ -1,0 +1,25 @@
+
+  .form-group {
+    label {
+      font-size: 16px;
+      font-weight: bold;
+      color: $social-color;
+      margin-bottom: 16px;
+    }
+    .form-control {
+      border-radius: 5px;
+      border: 1px solid $border-form;
+      height: 50px !important;
+      padding: 0 20px;
+      font-size: 15px;
+      margin-bottom: 35px;
+      &:focus {
+        // border-color: red;
+        outline: none;
+
+        border-color: $main-color;
+        box-shadow: $main-shadow;
+      }
+    }
+  }
+

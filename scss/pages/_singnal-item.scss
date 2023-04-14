@@ -1,0 +1,130 @@
+.singnal-header {
+  padding: 90px 0;
+
+  h1 {
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  .product-text {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 0;
+    margin-bottom: 15px;
+    line-height: 30px;
+    color: $paragraph-color;
+  }
+}
+.singnal-tabs {
+  margin-top: 85px;
+  .nav-pills {
+    border-bottom: 1px solid #eaeced;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 30px;
+    color: $social-color;
+    margin-top: 30px;
+  }
+  .nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 128px;
+    padding-bottom: 22px;
+    color: $paragraph-color;
+    outline: none;
+    background-color: transparent;
+
+    &:hover {
+      border: none;
+      outline: none;
+    }
+  }
+  .nav-link.active {
+    border: none;
+    border-bottom: 1px solid #0d152e;
+    outline: none;
+    color: #0d152e;
+    background: transparent;
+  }
+}
+
+ .item-details{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  max-width: 370px;
+  font-weight: bold;
+  .item-title {
+    font-size: 16px;
+  }
+
+  .item-text {
+    color: $paragraph-color;
+  }
+}
+.btns-product-about {
+  margin-top: 40px;
+  .btn-main {
+    margin-right: 30px;
+  }
+}
+.slider {
+  overflow: hidden;
+  margin-bottom: 10px;
+  justify-content: flex-start;
+  display: flex;
+  height: 600px;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+}
+.slides {
+  width: 100%;
+}
+.singnal-slider {
+  ul {
+    list-style: none;
+    margin-right: 12px;
+
+    li {
+      cursor: pointer;
+      margin-bottom: 10px;
+
+     
+  }
+}
+img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+}
+.singnal-footer {
+  background-color: #f7f9fb;
+  padding: 150px 0;
+  .main-heading {
+    margin-bottom: 75px;
+  }
+}
+
+.spical-price {
+  margin-bottom: 20px;
+  color: $saving-color;
+  font-weight: bold;
+  .product-price {
+    line-height: 40px;
+    font-size: 34px;
+    color: #0d152e;
+    .old-price {
+      font-size: 20px !important;
+      color: $paragraph-color;
+      margin-left: 10px;
+    }
+  }
+}

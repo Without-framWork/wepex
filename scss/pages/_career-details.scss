@@ -1,0 +1,57 @@
+.career-details-content {
+  padding: 120px 0;
+  .career-details-box {
+    max-width: 790px;
+    margin: auto;
+  }
+}
+
+.career-details-footer {
+  background-color: $social-color;
+  padding: 150px 0;
+}
+.email-details {
+  position: relative;
+  z-index: 8888;
+
+  .main-heading {
+    color: $color-text;
+    margin-bottom: 80px;
+  }
+
+  .signin-form {
+    max-width: 485px;
+    border-radius: 8px;
+    background-color: $color-text;
+    margin: auto;
+    padding: 30px;
+  }
+  .form-textarea {
+    height: 180px !important;
+    resize: none;
+    padding: 20px;
+  }
+}
+
+.details-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  li {
+    margin-right: 35px;
+    font-size: 16px;
+    color: $paragraph-color;
+    i {
+      margin-right: 10px;
+      font-size: 22px;
+    }
+    .location {
+      color: $marker-color;
+    }
+    .cricle {
+      color: $main-color;
+    }
+  }
+}

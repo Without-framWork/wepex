@@ -1,0 +1,71 @@
+.main-header {
+  padding: 23px 70px 0 70px;
+  background-color: #416ff4;
+
+  .navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 37px;
+    width: 200px;
+
+    // margin-right: 130px;
+    color: $color-text;
+  }
+
+  .nav-item {
+    margin-right: 45px;
+    text-align: center;
+  }
+
+  .btn-main {
+    height: 45px;
+    margin-left: 15px;
+    border: 1px solid #fff;
+  }
+
+  .nav-link {
+    font-weight: bold;
+    color: $color-text;
+
+    &:hover {
+      color: $social-color;
+    }
+  }
+  .navbar-toggler-icon {
+    margin: auto;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 13, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  
+    width: 3.5em;
+    height: 3.5em;
+    &:focus{
+      outline: none;
+    }
+  }
+}
+.sub-header {
+  background-color: transparent;
+  margin-bottom: 30px;
+  .nav-link {
+    font-weight: bold;
+    color: $social-color;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+  .navbar-brand {
+    color: #000;
+  }
+
+  .btn-main {
+    border: 1px solid $main-color;
+    background-color: $color-white;
+    color: $social-color;
+    &:hover {
+      background-color: $main-color;
+      color: $color-white;
+    }
+  }
+}
+
+

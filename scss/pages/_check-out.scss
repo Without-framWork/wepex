@@ -1,0 +1,101 @@
+.checkout-form {
+  max-width: 466px;
+  h3 {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  
+
+  .form-radio-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid $border-form;
+    height: 70px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    input {
+      display: none;
+    }
+    label {
+      padding: 5px;
+      margin-left: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    span {
+      position: relative;
+      display: inline-block;
+      top: 4px;
+      left: 0px;
+      width: 20px;
+      height: 20px;
+      margin-right: 15px;
+      border-radius: 50%;
+      border: 1px solid $main-color;
+    }
+    input:checked + span {
+      background: white;
+    }
+    input:checked + span::before {
+      content: "";
+      position: absolute;
+      left: 2px;
+      top: 2px;
+      background: $main-color;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+    }
+    input:disabled + span#rad::after {
+      content: "";
+      position: absolute;
+      left: 5px;
+      top: 5px;
+      background: rgb(255, 255, 255);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    input:disabled + span::before {
+      content: "";
+      position: absolute;
+      background: rgba(134, 155, 247, 0.575);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+    }
+  }
+
+  .form-group {
+    position: relative;
+    .visa-image {
+      position: absolute;
+      top: 37px;
+      right: 17px;
+    }
+  }
+}
+.states-infro {
+  margin-bottom: 60px;
+}
+.agree-conditions {
+  color: $paragraph-color;
+  line-height: 21px;
+  margin-bottom: 40px;
+  p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  a {
+    color: #0d152e;
+    text-decoration: underline;
+    margin-left: 5px;
+    &:hover {
+      color: $main-color;
+    }
+  }
+}

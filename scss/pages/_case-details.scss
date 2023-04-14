@@ -1,0 +1,79 @@
+.case-details-header {
+  background-repeat: no-repeat;
+  background-color: #f7f9fb;
+  margin-top: 25px;
+  height: 700px;
+
+  p {
+    font-size: 20px;
+    color: #ff9653;
+    margin-bottom: 40px;
+  }
+
+  .main-heading {
+    text-align: left;
+    margin-bottom: 60px;
+  }
+}
+.main-tilte {
+  padding: 100px 0;
+  max-width: 509px;
+  margin-left: auto;
+}
+.team-infro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .text {
+    font-size: 16px;
+    color: #0d152e;
+    margin-bottom: 0;
+
+    i,
+    img {
+      margin-right: 10px;
+    }
+  }
+  .title {
+    color: $paragraph-color !important;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
+
+.case-details-content {
+  padding: 100px 0;
+  .condition-detiles {
+    max-width: 790px;
+    margin: auto;
+    .condition-about {
+      margin-bottom: 50px;
+    }
+  }
+}
+.result-counter {
+  h1 {
+    font-size: 90px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 18px;
+  }
+  .efficiency-text {
+    color: $main-color;
+  }
+  .customer-text {
+    color: $saving-color;
+  }
+  .revenu-text {
+    color: #f48941;
+  }
+}
+
+.case-details-footer {
+  padding: 100px 0;
+  background-color: #f7f9fb;
+  h1 {
+    margin-bottom: 70px;
+  }
+}

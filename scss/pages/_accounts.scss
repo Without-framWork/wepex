@@ -1,0 +1,111 @@
+.accounts-tap {
+  margin: 300px 0;
+  .main-heading {
+    h1 {
+      margin-bottom: 50px;
+    }
+  }
+  .btn-main {
+    height: 60px;
+    margin-bottom: 35px;
+    align-items: center;
+  }
+}
+.logo {
+  position: relative;
+  left: 80px;
+  top: 20px;
+  max-width: 100px;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 40px;
+  a {
+    color: $social-color;
+  }
+}
+.continuous-opinion {
+  padding: 110px 0;
+  margin-left: 75px;
+  // padding: 360px 0 360px 70px;
+
+  .rating-star {
+    margin-bottom: 35px;
+  }
+  
+}
+.continuous-opinion-text {
+  line-height: 35px;
+  font-size: 20px;
+  text-align: left;
+  color: $color-text;
+  margin-bottom: 40px;
+  letter-spacing: -0.03em;
+}
+
+.sign-in {
+  margin-right: 50px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  label {
+    font-size: 16px;
+    color: $social-color;
+    margin-left: 10px;
+  }
+
+  .forgert-pass {
+    color: $main-color;
+    font-weight: bold;
+    &:hover {
+      color: $scond-main-color;
+    }
+  }
+}
+.account-link {
+  text-align: center;
+  p {
+    font-size: 16px;
+    color: $paragraph-color;
+  }
+  a {
+    font-weight: bold;
+    color: $main-color;
+    &:hover {
+      color: $social-color;
+    }
+  }
+}
+
+//sign-in
+
+// .sign-up-infro {
+//   // padding: 280px 50px 280px 0 !important;
+
+//   .custom-control {
+//     display: flex;
+//     align-items: center;
+//     input {
+//       width: 20px;
+//       height: 20px;
+//       margin-right: 5px;
+//     }
+//     label {
+//       line-height: 25px;
+//       margin-bottom: 0;
+//       font-size: 16px;
+//       color: $social-color;
+//       font-weight: 400;
+//     }
+//   }
+
+// }

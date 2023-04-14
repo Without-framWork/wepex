@@ -1,0 +1,90 @@
+{% extends "templates/layouts/app.html" %} {% block content %} {% set page_title
+= "offers" %} {% include "templates/parts/header-two.njk" %}
+<div class="page-head">
+  <div class="main-heading sub-title">
+    <h1>Your cart</h1>
+  </div>
+</div>
+<section class="common-section">
+  <div class="container">
+    <table class="table table-cart">
+      <thead>
+        <tr>
+          <th class="size-1">Product</th>
+          <th class="size-2">Price</th>
+          <th class="size-3">Quantity</th>
+          <th class="size-4">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="product-cart">
+              <figure>
+                <img
+                  src="assets/images/amazon-picture.png"
+                  alt=""
+                  class="img-responsive"
+                />
+              </figure>
+              <p>Amazon Echo Rockerz 400 Super Extra Bass Home System</p>
+            </div>
+          </td>
+          <td>
+            <div class="product-cart-price">$70</div>
+          </td>
+          <td>
+            <div class="product-shopping-cart-quantity">
+              <div class="quantity">
+                <button class="dec quantity-button">-</button>
+                <input class="quantity-input" type="text" value="2" />
+                <button class="inc quantity-button">+</button>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="product-cart-total-price">$140</div>
+          </td>
+          <td>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="about-pricing">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="btn-shopping">
+            <button type="button" class="btn-main">Continue Shopping</button>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="cart-totals-wrapper">
+            <div class="title">Price Details</div>
+
+            <div class="number-pieces">
+              <div class="text">Price (2 item)</div>
+              <div class="number">$140</div>
+            </div>
+            <div class="delivery-status">
+              <div class="text">Delivery Fee</div>
+              <div class="status">FREE</div>
+            </div>
+            <div class="totals-price">
+              <div class="text">Total Price</div>
+              <div class="number">$140</div>
+            </div>
+
+            <button type="submit" class="btn-main btn-block">
+              Proceed to checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "templates/parts/footer-two.njk" %} {% endblock %}
